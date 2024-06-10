@@ -1,0 +1,133 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    background-image: url("/src/imagens/bkr69x4tz0fa1.webp");
+    background-repeat: repeat;
+    background-size:cover;
+}
+
+.cabecalho {
+    text-align: center;
+    padding: 4%;
+}
+
+.cabecalho h1 {
+    color: #f1ecff;
+    font-size: 47px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.musicas-slider{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.lista-musicas{ 
+    width: 330px;
+    height: 520px;
+    position:relative;
+}
+
+.btn-seta{
+    background-color: #c1cdd4;
+    width: 1;
+    height: 1;
+    border-radius: 50px;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s
+    ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn-voltar{
+    transform: rotateY(180deg);
+}
+
+.btn-seta:hover {
+    background-color: rgb(98, 97, 99);
+}
+
+.cartao {
+    opacity:1;
+    position:absolute;
+    padding: 13px;
+    border-radius: 7px;
+    transition: opacity 3s ease-in-out;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px 1px;
+}
+
+.cartao.selecionado{
+    opacity: 1;
+    z-index:1;
+}
+
+.cartao .imagem-musicas{
+    max-width: 100%;
+    height: 300px;
+}
+
+.cartao .nome {
+    height: 80px;
+    background-color: rgba(179, 177, 185, 0, 7);
+    padding: 8px 12px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: #f1f1f1;
+    font-size:uppercase;
+    letter-spacing: 7px;
+}
+
+.cartao .songs {
+    background-color: rgba(150, 149, 149, 0.8);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.cartao .songs .titulo {
+    background-color: rgb(0, 0, 0);
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    padding:11px;
+}
+
+.cartao .songs .texto {
+    font-size: 14px;
+    padding: 12px;
+    text-align:left;
+    max-height:80px;
+    overflow-y: auto;
+}
+
+.cartao.fundo-1 {
+    background: url('../imagens/1aea2df9acd45d208fad4caeced74bb3.jpg') no-repeat;
+    background-size:489%;
+}
+
+.cartao.fundo-2 {
+    background: url('../imagens/1aea2df9acd45d208fad4caeced74bb3.jpg') no-repeat;
+    background-size:489%;
+}
+
+.cartao.fundo-3 {
+    background: url('../imagens/1aea2df9acd45d208fad4caeced74bb3.jpg') no-repeat;
+    background-size:489%;
+}
+
+.cartao.fundo-4 {
+    background: url('../imagens/1aea2df9acd45d208fad4caeced74bb3.jpg') no-repeat;
+    background-size:489%;
+}
+
+.cartao.fundo-6 {
+    background: url(../imagens/1aea2df9acd45d208fad4caeced74bb3.jpg);
+    background-size:489%;
+}
