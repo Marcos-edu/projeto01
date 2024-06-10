@@ -1,6 +1,6 @@
 body{
     font-family: 'Outfit', sans-serif;
-    background-image:("/src/imagens/bkr69x4tz0fa1.webp");
+    background-image: url('../imagens/bkr69x4tz0fa1.webp');
     background-repeat: no-repeat;
     background-size:cover;
 }
